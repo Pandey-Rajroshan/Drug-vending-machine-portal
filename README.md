@@ -1,4 +1,7 @@
 # Drug-vending-machine-portal
+
+![Uploading image.png…]()
+
 💊 Automatic Drug Vending Machine – Web Portal 💡
 🏥✨ Bridging the gap between technology and healthcare
 💻🧠 Smart. Secure. Scalable.
