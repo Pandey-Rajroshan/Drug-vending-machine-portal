@@ -1,6 +1,7 @@
 # Drug-vending-machine-portal
 
-![Uploading image.png…]()
+
+<img width="1536" height="1024" alt="VEND9" src="https://github.com/user-attachments/assets/633d8933-36c7-4df9-b39f-89d7845ff486" />
 
 💊 Automatic Drug Vending Machine – Web Portal 💡
 🏥✨ Bridging the gap between technology and healthcare
