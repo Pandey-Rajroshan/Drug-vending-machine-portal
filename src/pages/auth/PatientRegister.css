@@ -1,0 +1,54 @@
+/* PatientRegister.css */
+
+.patient-register-container {
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .patient-register-container h2 {
+    text-align: center;
+    margin-bottom: 25px;
+    color: #34495e;
+  }
+  
+  .patient-register-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .patient-register-container input {
+    padding: 12px 15px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.2s ease;
+  }
+  
+  .patient-register-container input:focus {
+    border-color: #3498db;
+    box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.2);
+  }
+  
+  .patient-register-container button {
+    padding: 12px;
+    background-color: #2980b9;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .patient-register-container button:hover {
+    background-color: #1f6391;
+  }
+  

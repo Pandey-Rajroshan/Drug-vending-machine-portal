@@ -1,0 +1,163 @@
+.patient-dashboard {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 8px 30px rgba(41, 127, 186, 0.1);
+    font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  }
+  
+  .patient-dashboard h2 {
+    color: #2a7fba;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    font-weight: 600;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid #f0f7fc;
+  }
+  
+  .patient-info {
+    background: #f8fafc;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2.5rem;
+    border-left: 4px solid #2a7fba;
+  }
+  
+  .patient-info p {
+    margin: 0.75rem 0;
+    font-size: 1.05rem;
+    line-height: 1.6;
+    color: #4a5568;
+  }
+  
+  .patient-info strong {
+    color: #2a7fba;
+    font-weight: 600;
+    min-width: 100px;
+    display: inline-block;
+  }
+  
+  .medication-section {
+    background: #f9fcff;
+    padding: 2rem;
+    border-radius: 12px;
+    border: 1px solid #e0f2fe;
+    margin-bottom: 2rem;
+  }
+  
+  .medication-section h3 {
+    color: #2a7fba;
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  
+  .medication-section label {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
+    border: 1px solid #e2e8f0;
+    font-size: 1.05rem;
+  }
+  
+  .medication-section label:hover {
+    border-color: #2a7fba;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(42, 127, 186, 0.1);
+  }
+  
+  .medication-section input[type="checkbox"] {
+    width: 1.2rem;
+    height: 1.2rem;
+    margin-right: 1rem;
+    accent-color: #2a7fba;
+    cursor: pointer;
+  }
+  
+  button {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    margin: 2rem auto 0;
+    padding: 1rem;
+    background: linear-gradient(135deg, #2a7fba 0%, #1e6fa0 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 8px rgba(42, 127, 186, 0.2);
+  }
+  
+  button:hover {
+    background: linear-gradient(135deg, #1e6fa0 0%, #2a7fba 100%);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(42, 127, 186, 0.3);
+  }
+  
+  button:active {
+    transform: translateY(0);
+  }
+  
+  .qr-code {
+    margin-top: 2rem;
+    padding: 2rem;
+    background: #f8fafc;
+    border-radius: 12px;
+    text-align: center;
+    animation: fadeIn 0.6s ease-out;
+    border: 1px dashed #2a7fba;
+  }
+  
+  .qr-code h4 {
+    color: #2a7fba;
+    margin-bottom: 1.5rem;
+    font-size: 1.3rem;
+  }
+  
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .patient-dashboard {
+      margin: 1rem;
+      padding: 1.5rem;
+    }
+    
+    .patient-info p {
+      font-size: 0.95rem;
+    }
+    
+    .medication-section {
+      padding: 1.5rem;
+    }
+    
+    button {
+      max-width: 100%;
+    }
+  }
+  
+  /* Loading Animation */
+  @keyframes pulse {
+    0% { opacity: 0.6; }
+    50% { opacity: 1; }
+    100% { opacity: 0.6; }
+  }
+  
+  .loading {
+    animation: pulse 1.5s infinite;
+  }

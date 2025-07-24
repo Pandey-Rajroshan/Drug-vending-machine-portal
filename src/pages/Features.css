@@ -1,0 +1,219 @@
+/* Base Styles */
+.features-page {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #2d3748;
+    line-height: 1.6;
+  }
+  
+  /* Hero Section */
+  .features-hero {
+    background: linear-gradient(135deg, #2a7fba 0%, #1a365d 100%);
+    color: white;
+    padding: 5rem 1rem;
+    text-align: center;
+  }
+  
+  .features-hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+  }
+  
+  .features-hero p {
+    font-size: 1.25rem;
+    max-width: 800px;
+    margin: 0 auto;
+    opacity: 0.9;
+  }
+  
+  /* Core Features Grid */
+  .core-features {
+    padding: 4rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .core-features h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: #2a7fba;
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+  }
+  
+  .feature-card {
+    background: white;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .feature-icon {
+    font-size: 2.5rem;
+    color: #2a7fba;
+    margin-bottom: 1.5rem;
+  }
+  
+  .feature-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 1rem;
+    color: #2a7fba;
+  }
+  
+  .feature-card p {
+    color: #4a5568;
+  }
+  
+  /* Technology Section */
+  .technology-section {
+    display: flex;
+    padding: 4rem 1rem;
+    background: #f7fafc;
+    max-width: 1200px;
+    margin: 0 auto;
+    border-radius: 8px;
+  }
+  
+  .tech-content {
+    flex: 1;
+    padding-right: 2rem;
+  }
+  
+  .tech-content h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #2a7fba;
+  }
+  
+  .tech-features {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+  
+  .tech-item h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #2a7fba;
+  }
+  
+  .tech-image {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .tech-visual {
+    width: 100%;
+    height: 300px;
+    background: #e2e8f0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #718096;
+  }
+  
+  /* Safety Features */
+  .safety-features {
+    padding: 4rem 1rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .safety-features h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: #2a7fba;
+  }
+  
+  .safety-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+  }
+  
+  .safety-card {
+    background: white;
+    border-radius: 8px;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  .safety-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .safety-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+    color: #2a7fba;
+  }
+  
+  /* Integration Section */
+  .integration-section {
+    padding: 4rem 1rem;
+    background: #2a7fba;
+    color: white;
+    text-align: center;
+  }
+  
+  .integration-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .integration-subtitle {
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    opacity: 0.9;
+  }
+  
+  .integration-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .logo-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 1rem 2rem;
+    border-radius: 4px;
+    font-weight: 500;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .technology-section {
+      flex-direction: column;
+    }
+    
+    .tech-content {
+      padding-right: 0;
+      margin-bottom: 2rem;
+    }
+    
+    .features-hero h1 {
+      font-size: 2rem;
+    }
+  }
+  
